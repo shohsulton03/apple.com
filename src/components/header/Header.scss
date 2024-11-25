@@ -1,0 +1,25 @@
+.header {
+  background: #F5F5F8;
+}
+.navbar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #3E3C3C;
+  &__collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    font-size: 13px;
+  }
+  &__logo{
+    color: #282728;
+    font-size: 18px;
+  }
+  &__icon{
+    font-size: 18px;
+    color: #282728;
+  }
+}
